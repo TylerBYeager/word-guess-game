@@ -1,3 +1,24 @@
+//Pseudo Code
+
+1. When page loads all elements are displayed:
+    Game Title 
+    Timer - set to 0
+    Button - starts game (function) increases timer 30s
+    Scoreboard - shows count of wins/losses
+    placeholder box - display box for word being guessed
+2. Button - function to start game using eventListener 'click'
+2. When Game starts a timer begins to countdown until timer reaches 0, in intervals of 1s, resulting in end of game, or user completes the game.
+    -Display changes to 'placeholder box' show underscores for length of RandomWordQuery selection
+        -CAT - take length of string and include that value of underscores
+        -create empty array for guessed letters
+    -A random index is selected from RandomWordQuery (a behind the scenes array of pre selected words to be guessed)
+    -log keydown events and compare to s
+
+
+
+
+
+
 # Unit 04 Mini-Project: Word Guess
 
 In this activity, you will work with a group to build a game using JavaScript and Web APIs.
